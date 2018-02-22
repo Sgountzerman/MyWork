@@ -3,8 +3,7 @@ from random import randrange
 Tuxaioi=[]
 for i in range(30):
     Tuxaioi.append(randrange(-30,30))
-    print(Tuxaioi[i])
-
+    
 c=0
 for i in range(28):
     for y in range(i,29):
@@ -15,4 +14,3 @@ for i in range(28):
 
 if c==0:
     print('Δεν υπάρχει συνδυασμός τριών αριθμών της λίστας που να δίνει άθροισμα 0')
-
